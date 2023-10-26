@@ -5,6 +5,7 @@ import Toolbar from "@/components/Toolbar";
 import PropertyContext from "@/utils/PropertyContext";
 import { founders } from "@/utils/fonts";
 import { Box, Heading } from "@chakra-ui/react";
+import "@silevis/reactgrid/styles.css";
 import {
   AppShell,
   Sidebar,

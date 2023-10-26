@@ -8,7 +8,6 @@ import {
   DropdownCell,
   TextCell,
 } from "@silevis/reactgrid";
-import "@silevis/reactgrid/styles.css";
 import { PropertyInfoProps } from ".";
 import { FC, useState } from "react";
 import { Property } from "@/utils/models";

@@ -178,8 +178,12 @@ const TenantRow: FC<TenantRowProps> = ({
     index: number
   ) => {
     const prevProperty = { ...property };
-
-    (prevProperty as any)["tenants"][index][key] = value;
+    if (key.includes(".")) {
+      const split: string[] = key.split(".");
+      (prevProperty as any)["tenants"][index][split[0]][split[1]] = value;
+    } else {
+      (prevProperty as any)["tenants"][index][key] = value;
+    }
     setProperty(prevProperty);
   };
 
@@ -343,7 +347,15 @@ const TenantRow: FC<TenantRowProps> = ({
                 ? "white"
                 : "gray.200"
             }
+            color={
+              property.tenants[index].roll_to_market.strategy === "In Month"
+                ? "black"
+                : "gray.200"
+            }
             borderRadius="md"
+            onChange={(val) =>
+              handleTenantChange("roll_to_market.start_month", val, index)
+            }
           >
             <EditablePreview />
             <EditableInput />
@@ -360,7 +372,7 @@ const TenantRow: FC<TenantRowProps> = ({
         </center>
       </Td>
       <Td>
-        <center>
+        <HStack justifyContent="center">
           <Editable
             value={dollarFormat(
               property.tenants[index].utility_reimbursement.toString()
@@ -376,7 +388,8 @@ const TenantRow: FC<TenantRowProps> = ({
             <EditablePreview />
             <EditableInput />
           </Editable>
-        </center>
+          <Text>/tenant/mo</Text>
+        </HStack>
       </Td>
       <Td>
         <center>
@@ -450,6 +463,38 @@ const TenantRow: FC<TenantRowProps> = ({
           <option value="No">No</option>
         </Select>
       </Td>
+      <Td>
+        <HStack justifyContent="center">
+          <Editable
+            value={property.tenants[index].renewal_probability.toString()}
+            onChange={(val) =>
+              handleTenantChange("renewal_probability", val, index)
+            }
+            w="auto"
+          >
+            <center>
+              <EditablePreview />
+              <EditableInput />
+            </center>
+          </Editable>
+          <Text marginLeft="-5px">%</Text>
+        </HStack>
+      </Td>
+      <Td>
+        <HStack justifyContent="center">
+          <Editable
+            value={property.tenants[index].downtime.toString()}
+            onChange={(val) => handleTenantChange("downtime", val, index)}
+            w="auto"
+          >
+            <center>
+              <EditablePreview />
+              <EditableInput />
+            </center>
+          </Editable>
+          <Text>days</Text>
+        </HStack>
+      </Td>
     </Tr>
   );
 };
@@ -474,7 +519,6 @@ export const TenantsInfo: FC<TenantsProps> = ({
               <Button colorScheme="primary" onClick={() => addBlankTenantRow()}>
                 Add tenant
               </Button>
-              <Button>Simple tenant add</Button>
             </>
           }
         />
@@ -499,7 +543,7 @@ export const TenantsInfo: FC<TenantsProps> = ({
               <Th colSpan={4} color="white">
                 Rent
               </Th>
-              <Th colSpan={7} color="white">
+              <Th colSpan={8} color="white">
                 Reimbursements
               </Th>
             </Tr>
@@ -525,6 +569,7 @@ export const TenantsInfo: FC<TenantsProps> = ({
               <Th isNumeric>Free Rent New Lease</Th>
               <Th isNumeric>Free Rent Renew Lease</Th>
               <Th>Free Rent Second Gen Lease</Th>
+              <Th>Renewal Probability</Th>
               <Th>Downtime (Days)</Th>
             </Tr>
           </Thead>

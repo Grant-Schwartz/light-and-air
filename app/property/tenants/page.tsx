@@ -1,6 +1,7 @@
 "use client";
 
 import { TenantsInfo } from "@/components/TenantsInfo";
+import { TenantSheet } from "@/components/TenantsInfo/sheet";
 import Toolbar from "@/components/Toolbar";
 import { PropertyData } from "@/utils/PropertyContext";
 import { ApartmentTenant, Property } from "@/utils/models";
@@ -15,14 +16,6 @@ export default function Tenants() {
   const sheet = () => {
     setSheetView(!sheetView);
   };
-
-  useEffect(() => {
-    console.log(property);
-  }, [property]);
-
-  useEffect(() => {
-    console.log(selected);
-  }, [selected]);
 
   const addBlankTenantRow = (property: Property) => {
     let default_matrix: any = {};
@@ -41,6 +34,7 @@ export default function Tenants() {
       in_place_rent: 0,
       roll_to_market: {
         strategy: "Yes",
+        start_month: "",
       },
       market_rent: 0,
       rent_growth_matrix: default_matrix,
@@ -50,8 +44,11 @@ export default function Tenants() {
       free_rent_new: 0,
       free_rent_renew: 0,
       free_rent_second_generation: false,
+      renewal_probability: 0.0,
       downtime: 0,
       uniqueId: uuidv4(),
+      roll_to_market_dropdown: false,
+      free_rent_second_generation_dropdown: false,
     };
     setProperty({ ...property, tenants: property.tenants.concat(blank) });
   };
@@ -112,7 +109,7 @@ export default function Tenants() {
       />
 
       {sheetView === true ? (
-        <div>Tenant sheets</div>
+        <TenantSheet property={property} setProperty={setProperty} />
       ) : (
         <TenantsInfo
           property={property}

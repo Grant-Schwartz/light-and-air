@@ -14,7 +14,7 @@ export interface AnalysisTiming {
 
 export interface ApartmentRollToMarket {
   strategy: "Yes" | "No" | "In Month";
-  start_month?: number;
+  start_month: number | string;
 }
 
 export interface ApartmentTenant {
@@ -35,8 +35,11 @@ export interface ApartmentTenant {
   free_rent_new: number;
   free_rent_renew: number;
   free_rent_second_generation: boolean;
+  renewal_probability: number;
   downtime: number;
   uniqueId: string;
+  roll_to_market_dropdown: boolean;
+  free_rent_second_generation_dropdown: boolean;
 }
 
 export interface ApartmentIncome {
@@ -44,6 +47,7 @@ export interface ApartmentIncome {
   cagr: number;
   percent_fixed: number;
   base_amount: number;
+  uniqueId: string;
 }
 
 export interface ApartmentExpense {
@@ -52,6 +56,7 @@ export interface ApartmentExpense {
   cagr: number;
   percent_fixed: number;
   base_amount: number;
+  uniqueId: string;
 }
 
 export interface Property {
