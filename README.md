@@ -1,6 +1,6 @@
 # Light & Air
 
-Modern Multifamily Real Estate Software
+Modern Multifamily Real Estate Software built using NextJS and Flask
 
 To Run:
 
