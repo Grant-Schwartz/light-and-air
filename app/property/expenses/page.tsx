@@ -6,6 +6,11 @@ import { PropertyData } from "@/utils/PropertyContext";
 import { ApartmentExpense } from "@/utils/models";
 import { useContext, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
+import {
+  ApartmentExpensePreset,
+  SelfStorageExpensePreset,
+  SeniorHousingExpensePreset,
+} from "./presets";
 
 export default function Expenses() {
   const { property, setProperty } = useContext(PropertyData);
@@ -14,15 +19,30 @@ export default function Expenses() {
   const sheet = () => {
     setSheetView(!sheetView);
   };
+  const addPresetExpenses = () => {
+    const prevProperty = { ...property };
+    if (property.property_sub_type === "Apartment") {
+      var presets = ApartmentExpensePreset;
+    } else if (property.property_sub_type === "Self Storage") {
+      var presets = SelfStorageExpensePreset;
+    } else if (property.property_sub_type === "Student Housing") {
+      var presets = ApartmentExpensePreset;
+    } else {
+      var presets = SeniorHousingExpensePreset;
+    }
+    prevProperty.expenses = presets;
+    setProperty(prevProperty);
+  };
   const addBlankExpense = () => {
     const prevProperty = { ...property };
     const blankExpense: ApartmentExpense = {
-      name: "Income Name",
+      name: "Expense Name",
       type: "OpEx",
       cagr: 3.0,
       percent_fixed: 0.0,
       base_amount: 0.0,
       uniqueId: uuidv4(),
+      type_dropdown: false,
     };
     prevProperty.expenses.push(blankExpense);
     setProperty(prevProperty);
@@ -86,7 +106,7 @@ export default function Expenses() {
           setProperty={setProperty}
           selected={selected}
           setSelected={setSelected}
-          addPresetExpenses={addBlankExpense}
+          addPresetExpenses={addPresetExpenses}
           addBlankExpense={() => addBlankExpense()}
         />
       )}

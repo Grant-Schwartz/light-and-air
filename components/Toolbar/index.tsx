@@ -24,28 +24,26 @@ export default function Toolbar({
     <Box
       w="100%"
       h="40px"
-      bgColor="gray.700"
-      color="white"
+      bgColor="secondary"
+      color="primary"
       display="flex"
       alignItems="center"
       p="2"
       justifyContent="space-between"
     >
       <HStack>
-        <Heading size="md" fontWeight="bold" letterSpacing="-0.05em">
-          {title}
-        </Heading>
+        <Heading size="md">{title}</Heading>
         <Box marginLeft="10px">
           <Tooltip label="Add" aria-label="A tooltip">
             <IconButton
-              icon={<FiPlus color="white" />}
+              icon={<FiPlus color="primary" />}
               aria-label={"Add"}
               disabled={true}
               bgColor="transparent"
               borderRadius="0px"
               height="40px"
               _hover={{
-                bgColor: "gray.800",
+                bgColor: "secondary_hover",
               }}
               isDisabled={add ? false : true}
               onClick={add ? () => add() : () => false}
@@ -53,14 +51,14 @@ export default function Toolbar({
           </Tooltip>
           <Tooltip label="Smart Add" aria-label="A tooltip">
             <IconButton
-              icon={<FiFilePlus color="white" />}
+              icon={<FiFilePlus color="primary" />}
               aria-label={"Smart Add"}
               disabled={true}
               bgColor="transparent"
               borderRadius="0px"
               height="40px"
               _hover={{
-                bgColor: "gray.800",
+                bgColor: "secondary_hover",
               }}
               isDisabled={smart ? false : true}
               onClick={smart ? () => smart() : () => false}
@@ -68,14 +66,14 @@ export default function Toolbar({
           </Tooltip>
           <Tooltip label="Copy" aria-label="A tooltip">
             <IconButton
-              icon={<FiCopy color="white" />}
+              icon={<FiCopy color="primary" />}
               aria-label={"Copy"}
               disabled={true}
               bgColor="transparent"
               borderRadius="0px"
               height="40px"
               _hover={{
-                bgColor: "gray.800",
+                bgColor: "secondary_hover",
               }}
               isDisabled={copy ? false : true}
               onClick={copy ? () => copy() : () => false}
@@ -83,14 +81,14 @@ export default function Toolbar({
           </Tooltip>
           <Tooltip label="Delete" aria-label="A tooltip">
             <IconButton
-              icon={<FiTrash2 color="white" />}
+              icon={<FiTrash2 color="primary" />}
               aria-label={"Delete"}
               disabled={true}
               bgColor="transparent"
               borderRadius="0px"
               height="40px"
               _hover={{
-                bgColor: "gray.800",
+                bgColor: "secondary_hover",
               }}
               isDisabled={del ? false : true}
               onClick={del ? () => del() : () => false}
@@ -101,13 +99,13 @@ export default function Toolbar({
       <Box>
         <Tooltip label="Excel View" aria-label="A tooltip">
           <IconButton
-            icon={<FiGrid color="white" />}
+            icon={<FiGrid color="primary" />}
             aria-label={"Excel"}
             bgColor="transparent"
             borderRadius="0px"
             height="40px"
             _hover={{
-              bgColor: "gray.800",
+              bgColor: "secondary_hover",
             }}
             isDisabled={sheet ? false : true}
             onClick={sheet ? () => sheet() : () => false}

@@ -138,7 +138,7 @@ export const IncomeInfo: FC<IncomeProps> = ({
           actions={
             <VStack>
               <Button
-                colorScheme="primary"
+                variant="primary"
                 onClick={() => {
                   console.log("in");
                   addPresetIncomes();

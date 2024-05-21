@@ -57,11 +57,12 @@ export interface ApartmentExpense {
   percent_fixed: number;
   base_amount: number;
   uniqueId: string;
+  type_dropdown: boolean;
 }
 
 export interface Property {
   name: string;
-  property_type: "Apartment";
+  property_type: "Multifamily";
   property_sub_type: string;
   location: PropertyLocation;
   acres: number;

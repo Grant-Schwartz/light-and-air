@@ -531,19 +531,19 @@ export const TenantsInfo: FC<TenantsProps> = ({
       <TableContainer h="100%">
         <Table variant="simple">
           <TableCaption>{property.name} Tenants</TableCaption>
-          <Thead bgColor="gray.700">
+          <Thead bgColor="secondary">
             <Tr>
               <Th />
-              <Th colSpan={5} color="white">
+              <Th colSpan={5} color="primary">
                 General
               </Th>
-              <Th colSpan={2} color="white">
+              <Th colSpan={2} color="primary">
                 Leasing
               </Th>
-              <Th colSpan={4} color="white">
+              <Th colSpan={4} color="primary">
                 Rent
               </Th>
-              <Th colSpan={8} color="white">
+              <Th colSpan={8} color="primary">
                 Reimbursements
               </Th>
             </Tr>

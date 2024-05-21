@@ -28,7 +28,10 @@ export interface PropertyInfoProps {
   setProperty: Dispatch<SetStateAction<Property>>;
 }
 
-const GeneralData: FC<PropertyInfoProps> = ({ property, setProperty }) => {
+export const GeneralData: FC<PropertyInfoProps> = ({
+  property,
+  setProperty,
+}) => {
   return (
     <AccordionItem>
       <h2>
@@ -102,7 +105,10 @@ const GeneralData: FC<PropertyInfoProps> = ({ property, setProperty }) => {
   );
 };
 
-const AnalysisTiming: FC<PropertyInfoProps> = ({ property, setProperty }) => {
+export const AnalysisTiming: FC<PropertyInfoProps> = ({
+  property,
+  setProperty,
+}) => {
   return (
     <AccordionItem>
       <h2>
