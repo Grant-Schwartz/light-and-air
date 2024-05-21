@@ -11,6 +11,7 @@ import {
   SelfStorageExpensePreset,
   SeniorHousingExpensePreset,
 } from "./presets";
+import { ExpenseSheet } from "@/components/ExpensesInfo/sheet";
 
 export default function Expenses() {
   const { property, setProperty } = useContext(PropertyData);
@@ -99,7 +100,7 @@ export default function Expenses() {
         }
       />
       {sheetView === true ? (
-        <div>sheet</div>
+        <ExpenseSheet property={property} setProperty={setProperty} />
       ) : (
         <ExpensesInfo
           property={property}

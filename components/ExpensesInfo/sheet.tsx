@@ -50,15 +50,15 @@ const expenseRow = ({ property, index }: ExpenseRowProps) => {
       },
       {
         type: "text",
-        text: property.incomes[index].base_amount.toString(),
+        text: property.expenses[index].base_amount.toString(),
       },
       {
         type: "text",
-        text: property.incomes[index].cagr.toString(),
+        text: property.expenses[index].cagr.toString(),
       },
       {
         type: "text",
-        text: property.incomes[index].percent_fixed.toString(),
+        text: property.expenses[index].percent_fixed.toString(),
       },
     ],
   };
