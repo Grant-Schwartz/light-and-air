@@ -1067,42 +1067,42 @@
 
 "@next/swc-darwin-x64@14.1.4":
   version "14.1.4"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-14.1.4.tgz#ba3683d4e2d30099f3f2864dd7349a4d9f440140"
+  resolved "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-14.1.4.tgz#ba3683d4e2d30099f3f2864dd7349a4d9f440140"
   integrity sha512-b0Xo1ELj3u7IkZWAKcJPJEhBop117U78l70nfoQGo4xUSvv0PJSTaV4U9xQBLvZlnjsYkc8RwQN1HoH/oQmLlQ==
 
 "@next/swc-linux-arm64-gnu@14.1.4":
   version "14.1.4"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-14.1.4.tgz#3519969293f16379954b7e196deb0c1eecbb2f8b"
+  resolved "https://registry.npmjs.org/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-14.1.4.tgz#3519969293f16379954b7e196deb0c1eecbb2f8b"
   integrity sha512-457G0hcLrdYA/u1O2XkRMsDKId5VKe3uKPvrKVOyuARa6nXrdhJOOYU9hkKKyQTMru1B8qEP78IAhf/1XnVqKA==
 
 "@next/swc-linux-arm64-musl@14.1.4":
   version "14.1.4"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-14.1.4.tgz#4bb3196bd402b3f84cf5373ff1021f547264d62f"
+  resolved "https://registry.npmjs.org/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-14.1.4.tgz#4bb3196bd402b3f84cf5373ff1021f547264d62f"
   integrity sha512-l/kMG+z6MB+fKA9KdtyprkTQ1ihlJcBh66cf0HvqGP+rXBbOXX0dpJatjZbHeunvEHoBBS69GYQG5ry78JMy3g==
 
 "@next/swc-linux-x64-gnu@14.1.4":
   version "14.1.4"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.1.4.tgz#1b3372c98c83dcdab946cdb4ee06e068b8139ba3"
+  resolved "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.1.4.tgz#1b3372c98c83dcdab946cdb4ee06e068b8139ba3"
   integrity sha512-BapIFZ3ZRnvQ1uWbmqEGJuPT9cgLwvKtxhK/L2t4QYO7l+/DxXuIGjvp1x8rvfa/x1FFSsipERZK70pewbtJtw==
 
 "@next/swc-linux-x64-musl@14.1.4":
   version "14.1.4"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-14.1.4.tgz#8459088bdc872648ff78f121db596f2533df5808"
+  resolved "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-14.1.4.tgz#8459088bdc872648ff78f121db596f2533df5808"
   integrity sha512-mqVxTwk4XuBl49qn2A5UmzFImoL1iLm0KQQwtdRJRKl21ylQwwGCxJtIYo2rbfkZHoSKlh/YgztY0qH3wG1xIg==
 
 "@next/swc-win32-arm64-msvc@14.1.4":
   version "14.1.4"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-14.1.4.tgz#84280a08c00cc3be24ddd3a12f4617b108e6dea6"
+  resolved "https://registry.npmjs.org/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-14.1.4.tgz#84280a08c00cc3be24ddd3a12f4617b108e6dea6"
   integrity sha512-xzxF4ErcumXjO2Pvg/wVGrtr9QQJLk3IyQX1ddAC/fi6/5jZCZ9xpuL9Tzc4KPWMFq8GGWFVDMshZOdHGdkvag==
 
 "@next/swc-win32-ia32-msvc@14.1.4":
   version "14.1.4"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-14.1.4.tgz#23ff7f4bd0a27177428669ef6fa5c3923c738031"
+  resolved "https://registry.npmjs.org/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-14.1.4.tgz#23ff7f4bd0a27177428669ef6fa5c3923c738031"
   integrity sha512-WZiz8OdbkpRw6/IU/lredZWKKZopUMhcI2F+XiMAcPja0uZYdMTZQRoQ0WZcvinn9xZAidimE7tN9W5v9Yyfyw==
 
 "@next/swc-win32-x64-msvc@14.1.4":
   version "14.1.4"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.1.4.tgz#bccf5beccfde66d6c66fa4e2509118c796385eda"
+  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.1.4.tgz#bccf5beccfde66d6c66fa4e2509118c796385eda"
   integrity sha512-4Rto21sPfw555sZ/XNLqfxDUNeLhNYGO2dlPqsnuCg8N8a2a9u1ltqBOPQ4vj1Gf7eJC0W2hHG2eYUHuiXgY2w==
 
 "@nodelib/fs.scandir@2.1.5":
@@ -1206,6 +1206,18 @@
     "@chakra-ui/utils" "^2.0.15"
     "@saas-ui/core" "2.5.2"
     "@tanstack/react-table" "^8.12.0"
+
+"@saas-ui/file-upload@^0.2.9":
+  version "0.2.9"
+  resolved "https://registry.npmjs.org/@saas-ui/file-upload/-/file-upload-0.2.9.tgz#19dedc939b19aa29079e85e9fc7fef5f704e0c49"
+  integrity sha512-DO5HvKPDWmd0OLmMp1O0sqk2AxX57adjwlQuISQetZaR23/x+13EA3LB5w9xvG9oAT8sqg66qq2EdzMAYWIZMw==
+  dependencies:
+    "@chakra-ui/react-utils" "^2.0.12"
+    "@chakra-ui/styled-system" "^2.9.2"
+    "@chakra-ui/theme-tools" "^2.1.2"
+    "@chakra-ui/utils" "^2.0.15"
+    "@zag-js/file-upload" "^0.38.1"
+    "@zag-js/react" "^0.38.1"
 
 "@saas-ui/forms@2.6.3":
   version "2.6.3"
@@ -1438,6 +1450,19 @@
   resolved "https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.2.0.tgz"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
+"@zag-js/anatomy@0.38.1":
+  version "0.38.1"
+  resolved "https://registry.npmjs.org/@zag-js/anatomy/-/anatomy-0.38.1.tgz#1cb0234b38bc0363927ca2210b931654a0b856e6"
+  integrity sha512-y6foq9vX+EfjfCwi9DMt5gI9eU7kshFjioidACI+u8TjBG2Z3nOjvEq+3Ct+dy5v/aRwsvSquaXpB555e0OLNQ==
+
+"@zag-js/core@0.38.1":
+  version "0.38.1"
+  resolved "https://registry.npmjs.org/@zag-js/core/-/core-0.38.1.tgz#8d884480cdc1419ac1b7187cd1224a79008b5e3f"
+  integrity sha512-v1WKbIzOWN2yN450zxVA1QCnI8np1vvcpPwsor9ZLM8OnION6yeiKCyjI7DqmLebCMhN9wnjExkjcb8ZAmNDuA==
+  dependencies:
+    "@zag-js/store" "0.38.1"
+    klona "2.0.6"
+
 "@zag-js/dom-event@^0.36.3":
   version "0.36.3"
   resolved "https://registry.npmjs.org/@zag-js/dom-event/-/dom-event-0.36.3.tgz"
@@ -1456,6 +1481,11 @@
   resolved "https://registry.npmjs.org/@zag-js/dom-query/-/dom-query-0.36.3.tgz"
   integrity sha512-ID8bFHFWS2ynOTZ3LiUmnVUllkmVfCw5nEAY14SZHdEa0wTCCubyAiTmuUxtu7QksBg27OsL5+FIezO1pFbsdw==
 
+"@zag-js/dom-query@0.38.1":
+  version "0.38.1"
+  resolved "https://registry.npmjs.org/@zag-js/dom-query/-/dom-query-0.38.1.tgz#43995d341f09ac3e105da27b2d4c2612c9944fa2"
+  integrity sha512-bGtc3hfBY4ngxHNTohT2XAwHpKkbPMeUF5JggSETMMtfv9e+FLy4F79j7OWjJjvQZKKcVesrw/1s0TlhkvZioA==
+
 "@zag-js/dom-utils@^0.2.4":
   version "0.2.4"
   resolved "https://registry.npmjs.org/@zag-js/dom-utils/-/dom-utils-0.2.4.tgz"
@@ -1468,12 +1498,56 @@
   resolved "https://registry.npmjs.org/@zag-js/element-size/-/element-size-0.10.5.tgz"
   integrity sha512-uQre5IidULANvVkNOBQ1tfgwTQcGl4hliPSe69Fct1VfYb2Fd0jdAcGzqQgPhfrXFpR62MxLPB7erxJ/ngtL8w==
 
+"@zag-js/file-upload@^0.38.1":
+  version "0.38.1"
+  resolved "https://registry.npmjs.org/@zag-js/file-upload/-/file-upload-0.38.1.tgz#9d44ed8897d3c3fd534e9fe1fa067c76233c0a3f"
+  integrity sha512-hwxmXoRd2Cc1agzBWDgaYemPVOo893889cHjD4RggC1yMJyVT1x20NAMGuBa7Tj7pR6zCuc4qKiW5kaFja03Ew==
+  dependencies:
+    "@zag-js/anatomy" "0.38.1"
+    "@zag-js/core" "0.38.1"
+    "@zag-js/dom-query" "0.38.1"
+    "@zag-js/file-utils" "0.38.1"
+    "@zag-js/types" "0.38.1"
+    "@zag-js/utils" "0.38.1"
+    "@zag-js/visually-hidden" "0.38.1"
+
+"@zag-js/file-utils@0.38.1":
+  version "0.38.1"
+  resolved "https://registry.npmjs.org/@zag-js/file-utils/-/file-utils-0.38.1.tgz#e8472c90f1ec43d370c0250db456ff1cbeb5b4c6"
+  integrity sha512-TI/XgWdBFCs/9IXoIw4lBXRpNICF1k4pCeqiSpANvK3y6UhNDwDDPkEdUJDS+W0munY7yO7Rg3pQPNjG3tRlqA==
+  dependencies:
+    "@zag-js/i18n-utils" "0.38.1"
+
 "@zag-js/focus-visible@0.16.0":
   version "0.16.0"
   resolved "https://registry.npmjs.org/@zag-js/focus-visible/-/focus-visible-0.16.0.tgz"
   integrity sha512-a7U/HSopvQbrDU4GLerpqiMcHKEkQkNPeDZJWz38cw/6Upunh41GjHetq5TB84hxyCaDzJ6q2nEdNoBQfC0FKA==
   dependencies:
     "@zag-js/dom-query" "0.16.0"
+
+"@zag-js/i18n-utils@0.38.1":
+  version "0.38.1"
+  resolved "https://registry.npmjs.org/@zag-js/i18n-utils/-/i18n-utils-0.38.1.tgz#bc97c7520ee90e6a034568a0b15190183b53283a"
+  integrity sha512-b0cPEtZoYk94YhrmTm5G3YBUCfmcwtEHhAD9WuFRCiw2Kj8sf1wLrgHi8TN6ESnoT3byaPesSRPuzx0Gj0Qhqw==
+  dependencies:
+    "@zag-js/dom-query" "0.38.1"
+
+"@zag-js/react@^0.38.1":
+  version "0.38.1"
+  resolved "https://registry.npmjs.org/@zag-js/react/-/react-0.38.1.tgz#fd149a819135ec8b5b5c33efbdc72afadfedc718"
+  integrity sha512-mXjMSqwIbzLJXLTI1eayagWbCgIY6DIJXhHpeMU3kbjMMnw4ilH7iPWDvrswc+cTWoIpojAkOB+Y2MsRuiEOMw==
+  dependencies:
+    "@zag-js/core" "0.38.1"
+    "@zag-js/store" "0.38.1"
+    "@zag-js/types" "0.38.1"
+    proxy-compare "2.6.0"
+
+"@zag-js/store@0.38.1":
+  version "0.38.1"
+  resolved "https://registry.npmjs.org/@zag-js/store/-/store-0.38.1.tgz#a6e0bb1bead836d8b109d12f0a25813eefe5fc4a"
+  integrity sha512-gaOsP8jjqZnivZSmzj3xHtpd8Vm9KMo3ESp41iinyry5suSgEn7BV12dTGG90+DBAfuCggqYv/dLjQCxbqQeMA==
+  dependencies:
+    proxy-compare "2.6.0"
 
 "@zag-js/text-selection@0.36.3":
   version "0.36.3"
@@ -1495,6 +1569,23 @@
   integrity sha512-mCCUFSMBIrdC1hbs/kGjhdfiK+MJY3Ds400qUrbja31nvEKV4wreHLXWGTa/ylKgNTBwjYUZSGklPNQeKam4WQ==
   dependencies:
     csstype "3.1.3"
+
+"@zag-js/types@0.38.1":
+  version "0.38.1"
+  resolved "https://registry.npmjs.org/@zag-js/types/-/types-0.38.1.tgz#24e6a1820c6dd075f42ef028922cc950e47598be"
+  integrity sha512-kSpjSE+d+5bucALf5DYaHloekk5V0OjlyOowqEEUEjCipGpPLWPxRXSKjiSxQIFftZij07sLxjn609b8PTKrEw==
+  dependencies:
+    csstype "3.1.3"
+
+"@zag-js/utils@0.38.1":
+  version "0.38.1"
+  resolved "https://registry.npmjs.org/@zag-js/utils/-/utils-0.38.1.tgz#05d0c64a6c0d2795d003e13d76555c3688b25435"
+  integrity sha512-kJ15yxO5tWCxZSMVIBSYPE8nfHA9zqtaOlZ8IiFDPPPi137SJDjKz/VIXlSUyCd/af7kQTCnxqVyNFLiyxGaRw==
+
+"@zag-js/visually-hidden@0.38.1":
+  version "0.38.1"
+  resolved "https://registry.npmjs.org/@zag-js/visually-hidden/-/visually-hidden-0.38.1.tgz#3a8f92c4c04607ab04edf45259a167c1f6676d17"
+  integrity sha512-8l1lYn9ilq8EAP2wZOHnlTqK3MJvIfrzMvxXQd5UMbTiQEDzjEwFFqROedjVvDhAZJ/riCGmlvFy4P0a6J2adA==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
@@ -2999,6 +3090,11 @@ keyv@^4.5.3:
   dependencies:
     json-buffer "3.0.1"
 
+klona@2.0.6:
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/klona/-/klona-2.0.6.tgz#85bffbf819c03b2f53270412420a4555ef882e22"
+  integrity sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==
+
 language-subtag-registry@^0.3.20:
   version "0.3.22"
   resolved "https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz"
@@ -3337,6 +3433,11 @@ prop-types@^15.6.2, prop-types@^15.8.1:
     object-assign "^4.1.1"
     react-is "^16.13.1"
 
+proxy-compare@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.npmjs.org/proxy-compare/-/proxy-compare-2.6.0.tgz#5e8c8b5c3af7e7f17e839bf6cf1435bcc4d315b0"
+  integrity sha512-8xuCeM3l8yqdmbPoYeLbrAXCBWu19XEYc5/F28f5qOaoAIMyfmBUkl5axiK+x9olUvRlcekvnm98AP9RDngOIw==
+
 punycode@^2.1.0:
   version "2.3.1"
   resolved "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz"
@@ -3625,16 +3726,7 @@ streamsearch@^1.1.0:
   resolved "https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz"
   integrity sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==
 
-"string-width-cjs@npm:string-width@^4.2.0":
-  version "4.2.3"
-  resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
-  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
-  dependencies:
-    emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
-    strip-ansi "^6.0.1"
-
-string-width@^4.1.0:
+"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
   version "4.2.3"
   resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -3698,14 +3790,7 @@ string.prototype.trimstart@^1.0.8:
     define-properties "^1.2.1"
     es-object-atoms "^1.0.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz"
-  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
-  dependencies:
-    ansi-regex "^5.0.1"
-
-strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
